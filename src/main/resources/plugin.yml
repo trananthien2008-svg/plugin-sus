@@ -1,0 +1,19 @@
+name: SusGUI
+version: 1.0.0
+main: me.susgui.SusGuiPlugin
+api-version: '1.20'
+folia-supported: true
+description: GUI hiển thị người chơi bị GrimAC nghi vấn gian lận, click để dịch chuyển tới.
+softdepend: [GrimAC, ViaVersion]
+
+commands:
+  sus:
+    description: Mở danh sách người chơi bị nghi vấn
+    usage: /sus
+    permission: susgui.use
+    permission-message: "§cChỉ OP mới được dùng lệnh này!"
+
+permissions:
+  susgui.use:
+    description: Mở GUI /sus (code vẫn kiểm tra thêm phải là OP)
+    default: op

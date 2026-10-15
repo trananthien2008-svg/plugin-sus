@@ -1,0 +1,20 @@
+# Số phút không bị GrimAC flag thêm thì người chơi tự bị xoá khỏi danh sách /sus
+expire-minutes: 10
+
+# Chỉ hiện người chơi có tổng số lần bị flag từ mức này trở lên
+min-flags: 1
+
+# Tự cập nhật GUI khi đang mở (20 tick = 1 giây, tối thiểu 10)
+refresh-ticks: 40
+
+# Hiện IP người chơi trong GUI
+show-ip: true
+
+# Hiện chi tiết (verbose) của lần flag gần nhất trong GUI
+show-verbose: true
+
+# Xoá người chơi khỏi danh sách khi họ thoát server
+remove-on-quit: true
+
+# In log mỗi khi nhận được flag từ GrimAC (dùng để kiểm tra kết nối)
+debug: false
